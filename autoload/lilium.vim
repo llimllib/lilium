@@ -28,7 +28,7 @@ function! lilium#get_configuration() "{{{
         \ }
 endfunction "}}}
 function! lilium#get_palette(style, colors_override) "{{{
-  " to get the bg colors:
+  " to get the bg colors, pip install colour then:
   " In [1]: from colour import Color
   " In [26]: c = Color("#252A39")
   " In [27]: for i in range(5):
@@ -36,7 +36,6 @@ function! lilium#get_palette(style, colors_override) "{{{
   "     ...:     c.luminance += 0.025
   "     ...: 
 
-  " yellow-green on the bench: #9dd274
   " purple on the bench: #ba9cf3
   let palette = {
         \ 'black':      ['#181a1c',   '232'],
@@ -58,7 +57,7 @@ function! lilium#get_palette(style, colors_override) "{{{
         \ 'orange':     ['#8ED0B2',   '215'],
         \ 'yellow':     ['#8ED0B2',   '179'],
         \ 'green':      ['#40BA93',   '107'],
-        \ 'blue':       ['#72cce8',   '110'],
+        \ 'blue':       ['#73D0FF',   '110'],
         \ 'purple':     ['#fca07f',   '176'],
         \ 'grey':       ['#828a9a',   '246'],
         \ 'grey_dim':   ['#5a6477',   '240'],
