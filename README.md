@@ -8,4 +8,4 @@ See this [wiki page](https://github.com/sainnhe/sonokai/wiki/Related-Projects).
 
 ## License
 
-[MIT](./LICENSE) © llimllib
+[MIT License](./LICENSE)
