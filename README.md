@@ -1,5 +1,9 @@
 # Lilium
 
+Update: I switched back to using sonokai, which is well-maintained, with the
+custom palette from this repository. You can see how I configured it
+[here](https://github.com/llimllib/personal_code/blob/68106a99/homedir/.config/nvim/lua/colorscheme.lua)
+
 My personal color scheme, based off of [Sonokai](https://github.com/sainnhe/sonokai)
 
 ![screenshot of the theme](doc/screenshot.png)
